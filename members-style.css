@@ -20,9 +20,14 @@
 }
 
 #member-table img {
+    /*margin-top: 10px;*/
     margin-bottom: -15px;
     width: 200px;
     height: 200px;
     border: 5px solid var(--lightning_hawks_red);
     border-radius: 100px;
+}
+
+.member-category {
+    margin-left: 5%;
 }
