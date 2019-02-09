@@ -3,7 +3,7 @@
     --lightning_hawks_blue: #0000FF;
     --lightning_hawks_lightblue: #00aeff;
     --lightning_hawks_red: #FF0000;
-    --background_bluegrey: #CCFFFF;
+    --background_bluegrey: #BBFFFF;
 }
 
 
@@ -85,17 +85,6 @@ h2 {
     margin-left: -2%;
     margin-top: 4.8em;
     margin-bottom: 1em;
-}
-            
-table {
-	text-align: center;
-	margin: 25px 15px;
-	border: 1px solid black;
-	background: rgb(247, 247, 247);
-}
-td {
-	border: 1px solid black;
-	background: rgb(247, 247, 247);
 }
 
 /* CSS FOR MAKING ENLARGING A BOX OF INFO */

@@ -1,0 +1,28 @@
+#member-table {
+	background-color: var(--lightning_hawks_lightblue);
+    text-align: center;
+	margin: 25px 5%;
+	border: 3px solid var(--lightning_hawks_navy);
+    width: 90%;
+}
+
+
+#member-table td {
+    width: 33%;
+    border: 3px solid var(--lightning_hawks_navy);
+    padding-top: 5px;
+}
+
+#member-table td p {
+    text-align: left;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+#member-table img {
+    margin-bottom: -15px;
+    width: 200px;
+    height: 200px;
+    border: 5px solid var(--lightning_hawks_red);
+    border-radius: 100px;
+}
