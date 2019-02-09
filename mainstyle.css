@@ -52,6 +52,10 @@ h2 {
     top: 0em;
     left: 2.5em;
     margin-right: 2.7em;
+    border-radius: 100px;
+}
+#logo:hover {
+    opacity: 0.8;
 }
 
 #nav {
@@ -120,6 +124,35 @@ body:hover .info:hover {
 }
 #sponsors img:hover {
     opacity: 0.6;
+}
+
+#competitions h3 {
+    font-size: 25px;
+    text-decoration: none;
+}
+#competitions h4 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+#competitions p {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+#competitions img {
+    padding: 10px; 
+    float: right;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+.competitions-linked-image:hover {
+    opacity: 0.9;
+}
+
+#contacts {
+    text-align: left;
+    margin-left: 40%;
 }
 
 #footer {
