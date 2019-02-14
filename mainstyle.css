@@ -148,6 +148,10 @@ body:hover .info:hover {
 #contacts a {
     color: var(--lightning_hawks_navy);
 }
+#contacts a:hover {
+    text-decoration: none;
+    opacity: 0.5;
+}
 #contacts td {
     padding: 1.0em;
 }
