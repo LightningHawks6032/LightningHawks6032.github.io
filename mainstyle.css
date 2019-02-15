@@ -1,5 +1,5 @@
 :root {
-    --lightning_hawks_navy: #292A3E;
+    --lightning_hawks_navy: #292A3E; /* #292A3E */
     --lightning_hawks_blue: #0000FF;
     --lightning_hawks_lightblue: hsl(199, 50%, 50%); /* #00aeff */
     --lightning_hawks_red: hsl(0, 50%, 50%); /* #FF0000 */
@@ -150,7 +150,7 @@ body:hover .info:hover {
 }
 #contacts a:hover {
     text-decoration: none;
-    opacity: 0.5;
+    opacity: 0.7;
 }
 #contacts td {
     padding: 1.0em;
