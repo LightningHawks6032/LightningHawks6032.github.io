@@ -123,6 +123,31 @@ h2 {
 	text-decoration: underline;
 }
 
+#competitions h3 {
+    font-size: 25px;
+    text-decoration: none;
+}
+#competitions h4 {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+#competitions p {
+    margin-left: 10px;
+    margin-top: -15px;
+}
+#competitions img {
+    padding: 10px; 
+    float: right;
+    /*width: 50%;*/
+    height: 320px;
+    margin-top: 4.0em;
+    border-radius: 30px;
+}
+.competitions-linked-image:hover {
+    opacity: 0.9;
+}
+
 /*
 body:hover .info:hover {
 	-webkit-transform: scale(1);
@@ -144,6 +169,7 @@ body:hover .info:hover {
     width: 40%;
     background-color: var(--background_bluegrey);
     border-radius: 20px;
+    font-size: 18px;
 }
 #contacts a {
     color: var(--lightning_hawks_navy);
