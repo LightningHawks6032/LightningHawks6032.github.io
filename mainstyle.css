@@ -53,7 +53,6 @@ h2 {
     position: absolute;
     top: 0em;
     left: 2.5em;
-    margin-right: 2.7em;
     border-radius: 100px;
 }
 #logo:hover {
@@ -68,24 +67,35 @@ h2 {
     top: 0px;
     left: 0px;
 	width: 100.1%;
-	height: 3.2em;
-	padding-top: 1.8em;
+	height: 3.3em;
+	padding-top: 1.6em;
 	text-align: CENTER;
     font-family: Arial;
 }
-.nav-item {
-	margin-right: 2.5em;
-	margin-left: 2.5em;
-	color: var(--lightning_hawks_red);
-    font-size: 1.0em;
+
+#nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 8em;
+    padding: 0;
+    overflow: hidden;
 }
 
-.nav-item:hover {
-	/*border-top: 0.2em groove var(--lightning_hawks_blue);
-	border-bottom: 0.2em groove var(--lightning_hawks_blue);*/
-	text-decoration: none;
-	/*color: hsl(0, 70%, 50%);*/
-    opacity: 0.9;
+#nav li {
+    float: left;
+    padding: 0px 35px;
+}
+
+#nav li a {
+    /*display: block;*/
+    color: var(--lightning_hawks_red);
+    text-align: center;
+    text-decoration: none;
+}
+
+#nav li a:hover {
+    text-decoration: none;
+    opacity: 0.5;
 }
 
 .nav-on-page {
@@ -100,7 +110,6 @@ h2 {
     margin-bottom: 1em;
 }
 
-/* CSS FOR MAKING ENLARGING A BOX OF INFO */
 .info {
 	border: 3px solid rgb(20, 20, 20);
 	border-radius: 8px;
