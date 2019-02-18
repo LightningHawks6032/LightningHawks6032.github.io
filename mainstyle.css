@@ -189,9 +189,10 @@ body:hover .info:hover {
 }
 #contacts td {
     padding: 1.0em;
+    font-size: 17px;
 }
 #contacts img {
-    width: 100%;
+    width: 200px;
 }
 #contacts img:hover {
     opacity: 0.5;
