@@ -104,9 +104,8 @@ h2 {
     
 }
 
-#logo-image {
-    
-    margin-left: none;
+#logo-image { 
+    margin-left: 20;
 }
 
 #nav ul {
