@@ -102,24 +102,27 @@ h2 {
 	text-align: CENTER;
     font-family: Arial;
     
+    display: flex;
 }
 
-#logo-image { 
-    margin-left: 20;
+#logo-black { 
+    padding-left: 50%;
 }
 
 #nav ul {
     list-style-type: none;
     margin: 0;
-    margin-left: 8em;
+    margin-left: 7%;
     padding: 4;
     overflow: hidden;
+    
+    padding-top: 35px;
 }
 
 #nav li {
     float: left;
-    padding: 0px 35px;
-    
+    padding-left: 30px;
+    padding-right: 30px;
     
 }
 
